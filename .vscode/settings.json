@@ -1,0 +1,8 @@
+{
+  "vue-html": "html",
+  "vue": "html",
+  "react-html": "html",
+  "react": "html",
+  "emmet.syntaxProfiles": {},
+  "git.ignoreLimitWarning": true
+}

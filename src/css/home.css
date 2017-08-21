@@ -1,0 +1,116 @@
+.wrapper{
+    overflow: auto;
+    background: #999;
+    
+}
+.swiper-container{
+    width: 100%;
+    height: 210px;
+}
+.hot-movies{
+    width: 100%;
+    background: #ebebeb;
+    padding-top: 18px;
+}
+.hot-movies-list{
+    margin: 0px 20px 20px 20px;
+    box-shadow: 0.5px 0.5px 1px #a8a8a8;
+}
+.hot-movies-list dt{
+    width: 100%;
+}
+.hot-movies-img{
+    width: 100%;
+}
+.hot-movies-describe{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: #ffffff;
+    padding: 20px 20px 0 20px;
+    box-sizing: border-box;
+}
+.hot-movies-describe h3{
+    font-size: 14px;
+}
+.hot-movies-describe p{
+    font-size: 10px;
+    color: #666666;
+    padding-top: 4px;
+}
+.hot-movies-describe span{
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 900;
+    color: #f78360;
+}
+.home-more{
+    width: 160px;
+    height: 30px;
+    border: 1px solid #aaa;
+    border-radius: 15px;
+    margin: 10px auto 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    color: #616161;
+    cursor: pointer;
+}
+.comming-show{
+    width: 100%;
+    background: #ebebeb;
+    padding-top: 48px;
+    border-top: 1px solid #aaa;
+    position: relative;
+}
+.comming-show-title{
+    width: 65px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 5px;
+    background: #a7a7a7;
+    font-size: 10px;
+    color: #ffffff;
+    position: absolute;
+    top: -10px;
+    left: 155px;
+}
+.comming-show-list{
+    margin: 0px 20px 20px 20px;
+    box-shadow: 0.5px 0.5px 1px #a8a8a8;
+}
+.comming-show-list dt{
+    width: 100%;
+}
+.comming-show-img{
+    width: 100%; 
+}
+.comming-show-describe{
+    position: relative;
+    width: 100%;
+    height: 35px;
+    background: #ffffff;
+    padding: 0px 20px 0 20px;
+    box-sizing: border-box;
+}
+.comming-show-describe h3{
+    font-size: 12px;
+    line-height: 35px;
+}
+.comming-show-describe span{
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 10px;
+    font-weight: 900;
+    color: #f78360;
+}

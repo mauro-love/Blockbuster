@@ -1,0 +1,22 @@
+
+
+#app .movies{
+    padding:0px 15px;
+    box-sizing: border-box;
+    background: #ffffff;
+}
+.movies-bar-title{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    border-bottom: 1px solid  #fe6e00 ;
+}
+.movies-bar-list{
+    width: 50%;
+    line-height: 45px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.subActive{
+    border-bottom: 3px solid  #fe6e00
+}

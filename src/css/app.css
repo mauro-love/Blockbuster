@@ -1,0 +1,96 @@
+html,body,#app{
+	width: 100%;
+	height: 100%;
+}
+#app{
+	position: relative;
+	overflow: hidden;
+}
+#app .page{
+	width: 100%;
+	position: absolute;
+	top: 51px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+.app-header{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: flex;
+	width: 100%;
+	height: 50px;
+	background: #282828;
+	border-bottom: 1px solid #999;
+	z-index: 98;
+}
+.app-header .icon-daohang{
+	display: block;
+	width: 50px;
+	height: 50px;
+	color: #999;
+	line-height: 50px;
+	text-align: center;
+	box-sizing: border-box;
+	border-right: 1px solid #999;
+}
+
+.title{
+	flex: 1;
+	padding: 0px 15px;
+	height: 50px;
+	line-height: 50px;
+	color: #ffffff;
+}
+.city{
+	text-decoration: none;
+	color: #999999;
+	line-height: 50px;
+}
+.icon-arrow-bottom:after{
+	display: inline-block;
+	transform: scale(0.8);
+}
+.icon-touxiang{
+	display: block;
+	width: 50px;
+	height: 50px;
+	color: #999999;
+	line-height: 50px;
+	text-align: center;
+}
+.cover{
+	position: absolute;
+	top: 51px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 99;
+}
+.menu-list{
+	position: absolute;
+	top: 51px;
+	left: 0px;
+	right: 120px;
+	bottom: 0px;
+	background: #282828;
+	transition: 1s;
+	z-index: 99;
+}
+
+.menu-list a{
+	display: block;
+	padding-left: 20px;
+	width: 100%;
+	height: 50px;
+	color: #999;
+	line-height: 50px;
+	box-sizing: border-box;
+}
+.menu-list a>span{
+	display: inline-block;
+	padding-right: 20px;
+	position: absolute;
+	right: 0px;
+}

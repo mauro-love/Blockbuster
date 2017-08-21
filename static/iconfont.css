@@ -1,0 +1,45 @@
+
+@font-face {font-family: "iconfont";
+  src: url('iconfont.ttf?t=1502971280477') format('truetype') /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*头像*/
+.icon-touxiang:before { content: "\e608"; }
+/*日用百货*/
+.icon-riyongbaihuo:before { content: "\e63e"; }
+/*向右箭头*/
+.icon-fanhui-copy-copy:before { content: "\e606"; }
+/*插头*/
+.icon-chatouplug:before { content: "\e603"; }
+/*座位*/
+.icon-zuowei:before { content: "\e64e"; }
+/*方向盘*/
+.icon-iconfontzhizuobiaozhun023150:before { content: "\e698"; }
+/*玩具*/
+.icon-wanju:before { content: "\e699"; }
+/*向下箭头*/
+.icon-arrow-bottom:after { content: "\e605"; }
+/*U盘*/
+.icon-iconUpan:before { content: "\e63a"; }
+/*通*/
+.icon-tong:before { content: "\e692"; }
+/*向上箭头*/
+.icon-xiangshangjiantou:before { content: "\e60a"; }
+/*唱歌*/
+.icon-changge:before { content: "\e895"; }
+/*手机*/
+.icon-xingzhuang:before { content: "\e613"; }
+/*导航*/
+.icon-daohang:before { content: "\e609"; }
+/*横杠*/
+.icon-henggang:before { content: "\e679"; }
+/*服饰*/
+.icon-fushi:before { content: "\e60b"; }
+
